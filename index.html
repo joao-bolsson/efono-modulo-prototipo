@@ -31,6 +31,10 @@
         .table th {
             text-align: center;
         }
+
+        .td-disabled {
+            background-color: #f5f5f5;
+        }
     </style>
 </head>
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
@@ -480,7 +484,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="box box-primary">
+                    <div class="box box-warning collapsed-box">
                         <div class="box-header with-border">
                             <h3 class="box-title">Realização dos Encontros Consonantais</h3>
 
@@ -489,7 +493,7 @@
                                 <span style="font-size: 9pt" class="label label-default">&oslash;: Omissão</span>
                                 <span style="font-size: 9pt" class="label label-default">S: Substituição</span>
                                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
-                                        class="fa fa-minus"></i>
+                                        class="fa fa-plus"></i>
                                 </button>
                             </div>
                         </div>
@@ -627,6 +631,100 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="box box-success">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Caracterização do Inventário Fonético</h3>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="box-body table-responsive no-padding">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th scope="col" colspan="2">Labial</th>
+                                        <th scope="col" colspan="2">Alveolar</th>
+                                        <th scope="col" colspan="2">Palato/Alveolar</th>
+                                        <th scope="col" colspan="2">Palatal</th>
+                                        <th scope="col" colspan="2">Velar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Plosiva</th>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Fricativa</th>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td colspan="2">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Africada</th>
+                                        <td colspan="4" class="td-disabled"></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td colspan="4" class="td-disabled"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Nasal</th>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Líquida Lateral</th>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Líquida Não Lateral</th>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="6" class="td-disabled"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Glide</th>
+                                        <td colspan="2" class="td-disabled"></td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2" class="td-disabled"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Outro</th>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2">0</td>
+                                        <td colspan="2">0</td>
                                     </tr>
                                 </tbody>
                             </table>
