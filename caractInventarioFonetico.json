@@ -1,41 +1,92 @@
 {
     "idAvaliacao": "String",
     "plosiva": {
-        "labial": [],
-        "alveolar": [],
-        "velar": []
+        "labial": [
+            "ab",
+            "1"
+        ],
+        "alveolar": [
+            "0",
+            "0"
+        ],
+        "velar": [
+            "0",
+            "0"
+        ]
     },
     "fricativa": {
-        "labial": [],
-        "alveolar": [],
-        "palato-alveolar": [],
-        "velar": []
+        "labial": [
+            "0",
+            "0"
+        ],
+        "alveolar": [
+            "0",
+            "0"
+        ],
+        "palato-alveolar": [
+            "0",
+            "0"
+        ],
+        "velar": [
+            "0"
+        ]
     },
     "africada": {
-        "palato-alveolar": []
+        "palato-alveolar": [
+            "0",
+            "0"
+        ]
     },
     "nasal": {
-        "labial": [],
-        "alveolar": [],
-        "palatal": []
+        "labial": [
+            "0"
+        ],
+        "alveolar": [
+            "0"
+        ],
+        "palatal": [
+            "1"
+        ]
     },
     "liquida-lateral": {
-        "alveolar": [],
-        "palatal": []
+        "alveolar": [
+            "0"
+        ],
+        "palatal": [
+            "0"
+        ]
     },
     "liquida-nao-lateral": {
-        "alveolar": []
+        "alveolar": [
+            "0"
+        ]
     },
     "glide": {
-        "alveolar": [],
-        "palato-alveolar": [],
-        "palatal": []
+        "alveolar": [
+            "1"
+        ],
+        "palato-alveolar": [
+            "2"
+        ],
+        "palatal": [
+            "3"
+        ]
     },
     "outro": {
-        "labial": [],
-        "alveolar": [],
-        "palato-alveolar": [],
-        "palatal": [],
-        "velar": []
+        "labial": [
+            "0"
+        ],
+        "alveolar": [
+            "1"
+        ],
+        "palato-alveolar": [
+            "0"
+        ],
+        "palatal": [
+            "0"
+        ],
+        "velar": [
+            "0"
+        ]
     }
 }
