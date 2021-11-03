@@ -1,0 +1,41 @@
+{
+    "idAvaliacao": "String",
+    "plosiva": {
+        "labial": [],
+        "alveolar": [],
+        "velar": []
+    },
+    "fricativa": {
+        "labial": [],
+        "alveolar": [],
+        "palato-alveolar": [],
+        "velar": []
+    },
+    "africada": {
+        "palato-alveolar": []
+    },
+    "nasal": {
+        "labial": [],
+        "alveolar": [],
+        "palatal": []
+    },
+    "liquida-lateral": {
+        "alveolar": [],
+        "palatal": []
+    },
+    "liquida-nao-lateral": {
+        "alveolar": []
+    },
+    "glide": {
+        "alveolar": [],
+        "palato-alveolar": [],
+        "palatal": []
+    },
+    "outro": {
+        "labial": [],
+        "alveolar": [],
+        "palato-alveolar": [],
+        "palatal": [],
+        "velar": []
+    }
+}
