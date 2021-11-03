@@ -24,17 +24,25 @@
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     <style>
-        .table td {
-            text-align: center;
-        }
 
-        .table th {
-            text-align: center;
-        }
+/* overwrite bootstrap */
+.table > tbody > tr > td {
+    text-align: center;
+    height: 52px;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
 
-        .td-disabled {
-            background-color: #f5f5f5;
-        }
+}
+
+.table th {
+    text-align: center;
+}
+
+.td-disabled {
+    background-color: #f5f5f5;
+}
     </style>
 </head>
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
@@ -257,7 +265,7 @@
                             </div>
                         </div>
                         <div class="box-body table-responsive no-padding">
-                            <table class="table table-bordered table-hover">
+                            <table class="table table-bordered table-hover tabelaEditavel">
                                 <col>
                                 <colgroup span="3"></colgroup>
                                 <colgroup span="3"></colgroup>
@@ -632,7 +640,7 @@
                             </div>
                         </div>
                         <div class="box-body table-responsive no-padding">
-                            <table class="table table-bordered table-hover">
+                            <table class="table table-bordered table-hover tabelaEditavel">
                                 <col>
                                 <colgroup span="3"></colgroup>
                                 <colgroup span="3"></colgroup>
@@ -781,28 +789,28 @@
                             </div>
                         </div>
                         <div class="box-body table-responsive no-padding">
-                            <table class="table table-bordered table-hover">
+                            <table class="table table-bordered table-hover tabelaEditavel">
                                 <thead>
                                     <tr>
-                                        <td></td>
-                                        <th scope="col" colspan="2">Labial</th>
-                                        <th scope="col" colspan="2">Alveolar</th>
-                                        <th scope="col" colspan="2">Palato/Alveolar</th>
-                                        <th scope="col" colspan="2">Palatal</th>
-                                        <th scope="col" colspan="2">Velar</th>
+                                        <td style="width: 15%"></td>
+                                        <th scope="col" colspan="2" style="width: 17%">Labial</th>
+                                        <th scope="col" colspan="2" style="width: 17%">Alveolar</th>
+                                        <th scope="col" colspan="2" style="width: 17%">Palato/Alveolar</th>
+                                        <th scope="col" colspan="2" style="width: 17%">Palatal</th>
+                                        <th scope="col" colspan="2" style="width: 17%">Velar</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">Plosiva</th>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td style="width: 8.5%">0</td>
+                                        <td style="width: 8.5%">0</td>
+                                        <td style="width: 8.5%">0</td>
+                                        <td style="width: 8.5%">0</td>
                                         <td colspan="2" class="td-disabled"></td>
                                         <td colspan="2" class="td-disabled"></td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td style="width: 8.5%">0</td>
+                                        <td style="width: 8.5%">0</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Fricativa</th>
@@ -810,8 +818,8 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td style="width: 8.5%">0</td>
+                                        <td style="width: 8.5%">0</td>
                                         <td colspan="2" class="td-disabled"></td>
                                         <td colspan="2">0</td>
                                     </tr>
@@ -880,6 +888,8 @@
 
     <!-- jQuery 3 -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+
     <!-- Bootstrap 3.3.7 -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- SlimScroll -->
